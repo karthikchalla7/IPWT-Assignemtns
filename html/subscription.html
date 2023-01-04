@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <link rel="stylesheet" href="css_layouts/layouts/activity_one.css">
+</head>
+
+
+<body>
+    <div class="subscriber-name">
+        <fieldset>
+            <legend>Subscription: </legend>
+            <form action="post">
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" placeholder="enter your first name"><br><br>
+                L<label for="lname">Last Name: </label>
+                <input type="text" id="lname" placeholder="enter your last name"><br><br>
+                <label for="email">Mail ID: </label>
+                <input type="text" placeholder="enter your email id"><br><br>
+
+                <div class="checkboxes">
+
+                    <strong>Select if you have any of these: </strong><br><br>
+                    <input type="checkbox" id="diabetis" name="diabetis">
+                    <label for="diabetis">Diabetis</label><br>
+                    <input type="checkbox" id="Heart problem" name="Heart problem">
+                    <label for="Heart problem">Heart Problem</label><br>
+                    <input type="checkbox" id="feeling weak" name="diabetis">
+                    <label for="diabetis">Feeling weak</label><br><br>
+
+                </div>
+
+                <div class="radio">
+
+                    <strong>Select Gender</strong><br>
+
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><Br>
+
+
+                </div>
+
+                <div class="dob">
+
+
+                    <label for="birthday"><strong>Birthday</strong></label><br>
+                    <input type="date" id="birthday" value="birthday"><br><br>
+                </div>
+
+                <div class="dropdown">
+                    <label for="paln"><strong>Select a plan</strong></label><br>
+                    <select name="plan" id="plan">
+                        <option value="3 months">3 months - 500INR</option>
+                        <option value="6months">6 months - 1000INR</option>
+                        <option value="1year">1 Year - 1100INR</option>
+                    </select><br><br>
+                </div>
+
+                <div class="area">
+                    <p><label for="review"><strong>Feel free to write about us: </strong></label></p>
+                    <textarea name="review" id="review" cols="40" rows="5"></textarea><br><br>
+                </div>
+
+                <button type="submit" onclick="alert('From submitted')">Submit</button>
+                <button type="reset">Reset</button>
+
+
+
+        </fieldset>
+
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

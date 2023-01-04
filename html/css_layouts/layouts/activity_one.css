@@ -1,0 +1,34 @@
+
+body {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.name{
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+}
+.name h2{
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+.name a{
+    justify-content: right;
+    color:azure;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 .5em;
+    border: .5em;
+}
+
+.desc p,.courses ul,.movies ol,.books ol,.facts p{
+    background-color: aliceblue;
+    justify-content: center;
+}
+
